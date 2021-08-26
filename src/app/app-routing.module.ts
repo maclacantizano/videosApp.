@@ -25,6 +25,10 @@ const routes: Routes = [
   {
     path: 'crepusculo-amanhecer',
     loadChildren: () => import('./filmes/crepusculo-amanhecer/crepusculo-amanhecer.module').then( m => m.CrepusculoAmanhecerPageModule)
+  },
+  {
+    path: 'dados-filme',
+    loadChildren: () => import('./dados-filme/dados-filme.module').then( m => m.DadosFilmePageModule)
   }
 ];
 @NgModule({
