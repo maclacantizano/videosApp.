@@ -17,7 +17,7 @@
 
     <ion-card-content>
       <h1> {{filme.nome}} -
-        <ion-chip color="success"> {{filme.classificacao}}% </ion-chip>
+        <ion-chip [color]="success"> {{filme.classificacao}}% </ion-chip>
       </h1>
       <p> {{filme.lancamento}} - {{filme.duracao}} </p>
     </ion-card-content>

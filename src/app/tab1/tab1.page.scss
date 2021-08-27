@@ -32,4 +32,13 @@ ion-item{
         font-size: 0.6rem;
         margin-right: 2px;
     }
+
+    ion-chip{
+        padding-inline: 0;
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+        justify-content: center;
+        border-width: 3px;
+    }
 }
